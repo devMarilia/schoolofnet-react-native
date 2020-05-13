@@ -18,7 +18,7 @@ export default class App extends Component {
       text: ''
     };
   }
-  componentWillMount() {
+  componentDidMount() {
     console.log('Antes de renderizar');
   }
 
